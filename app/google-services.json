@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "743037206203",
+    "firebase_url": "https://recetaspharmacy-5418a.firebaseio.com",
+    "project_id": "recetaspharmacy-5418a",
+    "storage_bucket": "recetaspharmacy-5418a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743037206203:android:6bff5d1b98b45b85",
+        "android_client_info": {
+          "package_name": "com.example.recetaspharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743037206203-lr7peoet25nqf813cbrs0evn9p831gns.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recetaspharmacy",
+            "certificate_hash": "352089a0aa1adb96b0a52b4de9f53a51955d8177"
+          }
+        },
+        {
+          "client_id": "743037206203-hkqclepk407qj1aegk022mvipcafuv7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJm4CwpCQkB1mP2YY9V73OzkSeY-i_ekM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743037206203-hkqclepk407qj1aegk022mvipcafuv7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
