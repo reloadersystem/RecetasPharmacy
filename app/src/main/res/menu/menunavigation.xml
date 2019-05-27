@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/db" android:title="Estadisticos" />
+<item android:id="@+id/tendencias" android:title="Tendencias" />
+<item android:id="@+id/productos" android:title="Productos" />
+<item android:id="@+id/recetas" android:title="Recetas" />
+<item android:id="@+id/record" android:title="Mi record" />
+<item android:id="@+id/registrate" android:title="Registrate" />
+<item android:id="@+id/ofertas" android:title="Ofertas" />
+<item android:id="@+id/salir" android:title="Salir"/>
+
+</menu>

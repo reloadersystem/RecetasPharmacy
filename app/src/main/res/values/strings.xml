@@ -4,4 +4,7 @@
     <string name="action_settings">Settings</string>
     <string name="not_log_in">No se puede iniciar seccion</string>
     <string name="Logout">Cerrar Seccion</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="title_activity_navigation">navigation</string>
 </resources>

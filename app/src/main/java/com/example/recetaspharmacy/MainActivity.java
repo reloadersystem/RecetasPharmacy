@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.google.android.gms.auth.api.Auth;
@@ -97,9 +98,30 @@ if(opr.isDone()){
     }
 
     public void logOut(View view) {
+
+        Auth.GoogleSignInApi.signOut(googleApiClient).setResultCallback(new ResultCallback<Status>() {
+            @Override
+            public void onResult(@NonNull Status status) {
+if(status.isSuccess()){
+    goLogInScreem();
+}else{
+    Toast.makeText(getApplicationContext(),"No se pudo cerrar seccion ",Toast.LENGTH_SHORT).show();
+} }});
+
     }
 
     public void revoke(View view) {
+        Auth.GoogleSignInApi.revokeAccess(googleApiClient).setResultCallback(new ResultCallback<Status>() {
+            @Override
+            public void onResult(@NonNull Status status) {
+                if(status.isSuccess()){
+                    goLogInScreem();
+
+                }else{
+Toast.makeText(getApplicationContext(),"No se pudo revokar el acceso",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 
     @Override
